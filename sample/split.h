@@ -6,8 +6,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define メイン main
-
 /* stdlib.h */
 #define メモリ解放 free
 #define メモリ確保 malloc

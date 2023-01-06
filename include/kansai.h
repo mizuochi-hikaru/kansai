@@ -111,6 +111,7 @@
 #define なし 
 #define 返すのが return
 #define 終わんねん return;
+#define メイン処理 main
 
 /*
  制御構造
