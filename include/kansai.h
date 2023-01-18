@@ -6,12 +6,13 @@
 #include <stdio.h>
 
 /*
-接続詞(便利)
+接続詞など(便利)
 */
 #define の
 #define や
 #define と ,
 #define な ;
+#define 知らんけど
 
 /*
  型定義
@@ -25,7 +26,9 @@
 #define 正の unsigned
 #define でっかい long
 /* 構造体 */
-#define ひとかたまりなんやけど typedef struct {
+#define ひとかたまりなんやけど \
+    typedef struct                        \
+    {
 #define こういうのんが中に入ってるねん }
 #define ていうんやけどな ;
 /* 配列 */
@@ -92,7 +95,7 @@
 #define 型 sizeof(
 #define のサイズ )
 
-/* 
+/*
  関数
  */
 #define を返す関数で
@@ -108,7 +111,7 @@
 #define を呼ぶねん
 #define けど
 #define を呼んだ結果で
-#define なし 
+#define なし
 #define 返すのが return
 #define 終わんねん return;
 #define メイン処理 main
@@ -118,7 +121,7 @@
  */
 /* ループ */
 // NOTE: forとかは面倒なので無限ループでbreakする
-#define こっから先繰り返すねん while(1)
+#define こっから先繰り返すねん while (1)
 #define それはこっから {
 #define ここまでやね }
 #define 頭に戻らせてもらうな continue;
